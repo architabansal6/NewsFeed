@@ -11,14 +11,17 @@ import UIKit
 
 class PaperSelectionController: UICollectionViewController {
    
-    private let papers = ["TOI","The Hindu","Hindustan Times","Economic Times"]
+    private var papers = [String]()
     private let reuseIdentifier = "paperCell"
     private let sectionInsets = UIEdgeInsets(top: 16, left: 16 , bottom: 16, right: 16)
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.getAllPapers()
+        
         self.collectionView!.backgroundColor = UIColor(patternImage: UIImage(named: "newsPaperBg")!)
+        self.navigationItem.title = "News Papers"
         self.configNavigationBar()
     
     }
@@ -29,6 +32,11 @@ class PaperSelectionController: UICollectionViewController {
         self.navigationController?.navigationBar.backItem?.title = ""
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItemStyle.Plain, target: nil, action: nil)
         
+    }
+    
+    func getAllPapers(){
+        NewsAdapter.sharedInstance.readFromJsonFile()
+        self.papers = NewsAdapter.sharedInstance.getPapers()
     }
     
 

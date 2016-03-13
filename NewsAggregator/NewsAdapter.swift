@@ -38,6 +38,16 @@ class NewsAdapter : NSObject {
         }
     }
     
+    func getPapers() -> [String]{
+       
+        var papers = [String]()
+        
+        for item in self.data{
+            
+            papers.append(item.valueForKey("paper") as! String)
+        }
+       return papers
+    }
     
     func getNewsData(paperName : String)->[NSMutableDictionary]{
         

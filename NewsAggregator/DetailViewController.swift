@@ -33,13 +33,6 @@ class DetailViewController: UIViewController {
         webView.loadRequest(requestObj);
     }
     
-    func getDetails(){
-        
-        var detail = NewsAdapter.sharedInstance.getDetailForHeadline(self.headline)
-        self.textView.text = detail
-        
-        
-    }
 
     func webViewDidFinishLoad(webView: UIWebView) {
         self.activityIndicator.hidden = true
