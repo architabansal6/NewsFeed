@@ -1,0 +1,47 @@
+ [{
+		"paper": "TOI",
+		"news": [{
+                 "headline": "Mallya left on diplomatic passport on March 2",
+                 "detail": "http://timesofindia.indiatimes.com/india/Mallya-left-on-diplomatic-passport-on-March-2/articleshow/51366420.cms"
+                 }, {
+                 "headline": "In Bihar, PM Modi slams Congress, praises chief minister Nitish Kumar",
+                 "detail": "http://timesofindia.indiatimes.com/india/In-Bihar-PM-Modi-slams-Congress-praises-chief-minister-Nitish-Kumar/articleshow/51373151.cms"
+                 },
+                 {
+                 "headline": "A look at how the Syrian conflict has changed the world",
+                 "detail": "http://timesofindia.indiatimes.com/world/middle-east/Syrian-War-How-it-changed-the-world/articleshow/51381849.cms"
+                 }, {
+                 "headline": "Wilful defaulters to be brought to justice: Centre",
+                 "detail": "http://timesofindia.indiatimes.com/business/india-business/Wilful-defaulters-to-be-brought-to-justice-Centre/articleshow/51382063.cms"
+                 }]
+  }, {
+		"paper": "The Hindu",
+		"news": [{
+                 "headline": "Hyderabad court issues NBW against Mallya in cheque dishonour case",
+                 "detail": "http://www.thehindu.com/news/nbw-against-mallya-by-hyderabad-court-in-cheque-dishonour-case/article8348773.ece?homepage=true"
+                 }, {
+                 "headline": "No security threat in India, says Pakistan captain Afridi",
+                 "detail": "http://www.thehindu.com/sport/cricket/world-cup/no-security-threat-in-india-says-pakistan-captain-afridi/article8348686.ece?homepage=true"
+                 }]
+    },{
+		"paper": "Economic Times",
+		"news": [{
+                 "headline": "Everyone tells you what to buy in stock market: Here is what you must avoid",
+                 "detail": "http://economictimes.indiatimes.com/markets/stocks/news/everyone-tells-you-what-to-buy-in-stock-market-here-is-what-you-must-avoid/articleshow/51380312.cms"
+                 }, {
+                 "headline": "Black money: DRI probes illicit outflow of $505 billion",
+                 "detail": "http://economictimes.indiatimes.com/news/politics-and-nation/black-money-dri-probes-illicit-outflow-of-505-billion/articleshow/51380397.cms"
+                 }]
+  },{
+		"paper": "Hindustan Times",
+		"news": [{
+                 "headline": "I’m an Indian to the core, don’t make me the villain: Vijay Mallya",
+                 "detail": "http://www.hindustantimes.com/india/i-m-an-indian-to-the-core-don-t-make-me-the-villain-vijay-mallya/story-bl7qInVEB6pm8PWYH1JngO.html"
+                 }, {
+                 "headline": "I have more Sikhs in Cabinet than Modi: Canada PM Justin Trudeau",
+                 "detail": "http://www.hindustantimes.com/india/i-have-more-sikhs-in-cabinet-than-modi-canada-pm-justin-trudeau/story-7JTLV9amgp0eWWtRo135bI.html"
+                 }]
+  }
+  
+  
+  ]
